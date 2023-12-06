@@ -1,0 +1,224 @@
+{
+    "usuarios": [
+        {
+            "id": 1,
+            "nome": "Bryan Beckham",
+            "email": "bryan@js.com",
+            "senha": "1234",
+            "cargo": "Proprietário",
+            "tipo": "admin"
+        },
+        {
+            "id": 2,
+            "nome": "Pedro Henrique Pereira Sanches",
+            "email": "pedro@js.com",
+            "senha": "1234",
+            "cargo": "Ajudante Geral e Pedreiro",
+            "tipo": "comum"
+        },
+        {
+            "id": 1,
+            "nome": "Novo",
+            "email": "igor@js.com",
+            "senha": "1234",
+            "cargo": "Cliente",
+            "tipo": "cliente"
+        },
+        {
+            "id": 3,
+            "nome": "Mirella França",
+            "email": "mirella@js.com",
+            "senha": "1234",
+            "cargo": "Vendedora",
+            "tipo": "comum"
+        }
+    ],
+    "itens": [
+        {
+            "id": 1,
+            "nome": "Cimento",
+            "descricao": "Cimento Branco Estrutural 25KG Saco LPC Argos",
+            "tipo": "Produto",
+            "img": "../assets/cimento.jpg",
+            "preco": 84.9
+        },
+        {
+            "id": 2,
+            "nome": "Massa corrida",
+            "descricao": "Massa corrida Coral 25kg",
+            "tipo": "Produto",
+            "img": "../assets/massacorrida.jpg",
+            "preco": 92.9
+        },
+        {
+            "id": 3,
+            "nome": "Forro PVC",
+            "descricao": "Forro PVC Frisado 200x7mm 3m 0,6m² Branco Plasbil",
+            "tipo": "Produto",
+            "img": "../assets/forro.jpg",
+            "preco": 22.9
+        },
+        {
+            "id": 4,
+            "nome": "Tijolo",
+            "descricao": "Bloco Cerâmico Nova Conquista 09x19x19cm Vermelho",
+            "tipo": "Produto",
+            "img": "../assets/tijolo.jpg",
+            "preco": 0.9
+        },
+        {
+            "id": 5,
+            "nome": "Coleira média",
+            "descricao": "Coleira de couro para cachorro de porte médio",
+            "tipo": "Produto",
+            "img": "../assets/coleira.png",
+            "preco": 24.9
+        },
+        {
+            "id": 6,
+            "nome": "Casa de transporte de gato",
+            "descricao": "Casa fechada para transporte de gatos",
+            "tipo": "Produto",
+            "img": "../assets/casa_gato.png",
+            "preco": 159.9
+        },
+        {
+            "id": 7,
+            "nome": "Casa de cachorro médio",
+            "descricao": "Casinha feita de material reciclado para cães de médio porte",
+            "tipo": "Produto",
+            "img": "../assets/casa_cachorro.png",
+            "preco": 59.9
+        }
+    ],
+    "vendas": [
+        {
+            "id": 1,
+            "data": "2023-11-05T08:50:00.000Z",
+            "usuario": 2,
+            "item": 1,
+            "quantidade": 1,
+            "valorUnitario": 29.9
+        },
+        {
+            "id": 2,
+            "data": "2023-11-05T09:35:00.000Z",
+            "usuario": 2,
+            "item": 2,
+            "quantidade": 1,
+            "valorUnitario": 49.9
+        },
+        {
+            "id": 3,
+            "data": "2023-11-05T12:00:00.000Z",
+            "usuario": 2,
+            "item": 3,
+            "quantidade": 1,
+            "valorUnitario": 49.9
+        },
+        {
+            "id": 4,
+            "data": "2023-11-05T08:50:00.000Z",
+            "usuario": 2,
+            "item": 6,
+            "quantidade": 1,
+            "valorUnitario": 159.9
+        },
+        {
+            "id": 5,
+            "data": "2023-11-06T08:20:00.000Z",
+            "usuario": 3,
+            "item": 5,
+            "quantidade": 2,
+            "valorUnitario": 24.9
+        },
+        {
+            "id": 6,
+            "data": "2023-11-06T10:40:00.000Z",
+            "usuario": 3,
+            "item": 4,
+            "quantidade": 1,
+            "valorUnitario": 19.9
+        },
+        {
+            "id": 7,
+            "data": "2023-11-06T11:50:00.000Z",
+            "usuario": 3,
+            "item": 4,
+            "quantidade": 2,
+            "valorUnitario": 19.9
+        },
+        {
+            "id": 8,
+            "data": "2023-11-06T12:50:00.000Z",
+            "usuario": 2,
+            "item": 6,
+            "quantidade": 1,
+            "valorUnitario": 159.9
+        },
+        {
+            "id": 9,
+            "data": "2023-11-07T08:50:00.000Z",
+            "usuario": 2,
+            "item": 7,
+            "quantidade": 1,
+            "valorUnitario": 59.9
+        },
+        {
+            "id": 10,
+            "data": "2023-11-07T10:20:00.000Z",
+            "usuario": 2,
+            "item": 2,
+            "quantidade": 1,
+            "valorUnitario": 49.9
+        },
+        {
+            "id": 11,
+            "data": "2023-11-07T10:45:00.000Z",
+            "usuario": 3,
+            "item": 1,
+            "quantidade": 2,
+            "valorUnitario": 29.9
+        },
+        {
+            "id": 12,
+            "data": "2023-11-07T11:05:00.000Z",
+            "usuario": 1,
+            "item": 3,
+            "quantidade": 1,
+            "valorUnitario": 49.9
+        },
+        {
+            "id": 13,
+            "data": "2023-11-07T13:50:00.000Z",
+            "usuario": 1,
+            "item": 4,
+            "quantidade": 1,
+            "valorUnitario": 19.9
+        },
+        {
+            "id": 14,
+            "data": "2023-11-07T08:14:00.000Z",
+            "usuario": 2,
+            "item": 5,
+            "quantidade": 1,
+            "valorUnitario": 24.9
+        },
+        {
+            "id": 15,
+            "data": "2023-11-07T15:50:00.000Z",
+            "usuario": 1,
+            "item": 6,
+            "quantidade": 1,
+            "valorUnitario": 159.9
+        },
+        {
+            "id": 16,
+            "data": "2023-11-07T16:20:00.000Z",
+            "usuario": 1,
+            "item": 7,
+            "quantidade": 1,
+            "valorUnitario": 59.9
+        }
+    ]
+}
