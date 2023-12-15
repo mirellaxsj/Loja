@@ -17,14 +17,6 @@
             "tipo": "comum"
         },
         {
-            "id": 1,
-            "nome": "Novo",
-            "email": "igor@js.com",
-            "senha": "1234",
-            "cargo": "Cliente",
-            "tipo": "cliente"
-        },
-        {
             "id": 3,
             "nome": "Mirella França",
             "email": "mirella@js.com",
@@ -68,27 +60,27 @@
         },
         {
             "id": 5,
-            "nome": "Coleira média",
-            "descricao": "Coleira de couro para cachorro de porte médio",
+            "nome": "Argamassa",
+            "descricao": "Argamassa Quartzolit de uso Externo e Interno AC3 Flexível 20kg Cinza",
             "tipo": "Produto",
-            "img": "../assets/coleira.png",
-            "preco": 24.9
+            "img": "../assets/argamassa.jpg",
+            "preco": 59.9
         },
         {
             "id": 6,
-            "nome": "Casa de transporte de gato",
-            "descricao": "Casa fechada para transporte de gatos",
+            "nome": "Rejunte",
+            "descricao": "Rejunte Quartzolit Acrílico 1Kg Cinza Platina",
             "tipo": "Produto",
-            "img": "../assets/casa_gato.png",
-            "preco": 159.9
+            "img": "../assets/rejunte.jpg",
+            "preco": 48.9
         },
         {
             "id": 7,
-            "nome": "Casa de cachorro médio",
-            "descricao": "Casinha feita de material reciclado para cães de médio porte",
+            "nome": "Escada",
+            "descricao": "Escada Botafogo Articulada 4x4 16 Degraus",
             "tipo": "Produto",
-            "img": "../assets/casa_cachorro.png",
-            "preco": 59.9
+            "img": "../assets/escada.jpg",
+            "preco": 779.9
         }
     ],
     "vendas": [
